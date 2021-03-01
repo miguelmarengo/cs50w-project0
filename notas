@@ -26,6 +26,16 @@ git branch xxxx
 git branch
 3. para seleccionar un branch
 git checkout nombre_branch
+-----------------------------------------
+Push a branch to a remote repository
+1. push
+git push -u https://github.com/me50/miguelmarengo.git web50/projects/2020/x/search
+
+la -u indica que se quedan asociadas ese repository y esa branch con mi direcrotio
+en proximas veces solo teclear
+git push
+ó
+git pull
 
 
 
