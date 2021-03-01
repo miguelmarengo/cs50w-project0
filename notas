@@ -37,6 +37,13 @@ git push
 ó
 git pull
 
+-----------------------------------------
+pasar a MASTER
+git checkout master
+
+
+
+
 
 
 ver que cambios tiene mi codigo del directorio
