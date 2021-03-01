@@ -11,6 +11,21 @@ git status
 git commit -m "mi mensaje delmcommit"
 
 5. push this commit files localy to the remote repository
+Pushing changes:
+git diff
+git status
+-------
+git push origin master
+git pull origin master
+
+-------------------------------------------
+Common flow
+1. create a branch
+git branch xxxx
+2. para ver cuantas branches tengo
+git branch
+3. para seleccionar un branch
+git checkout nombre_branch
 
 
 
