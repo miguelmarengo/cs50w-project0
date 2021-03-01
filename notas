@@ -7,6 +7,12 @@ git add -A
 3. ver el status
 git status
 
+4. commit with message
+git commit -m "mi mensaje delmcommit"
+
+5. push this commit files localy to the remote repository
+
+
 
 ver que cambios tiene mi codigo del directorio
 git diff
