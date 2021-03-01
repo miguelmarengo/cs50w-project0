@@ -1,0 +1,53 @@
+1. en el directorio que estara el proycto
+git init
+
+2. añadir a stage todos los archivos o poner el nombre del archivo a añadir por ejemplo aaa.py
+git add -A
+
+3. ver el status
+git status
+
+
+ver que cambios tiene mi codigo del directorio
+git diff
+
+ver que no esta en STAGE
+git status
+
+add to the staging directory todos los archivos -A, sino x.py
+git add -A
+
+
+
+
+
+
+https://github.com/me50/USERNAME.git
+
+Instrucciones de git
+1. en mi directorio, donde esta el proyecto
+
+
+
+git config --global user.name "miguelmarengo"
+git config --global user.email "miguelmarengo@arete.ws"
+
+To check the configuration, run:
+git config --global --list
+
+
+git init.defaultbranch web50/projects/2020/x/search
+
+git config --global init.defaultBranch web50/projects/2020/x/search
+
+git branch -m web50/projects/2020/x/search
+
+-----------------------------------------------------
+1.
+git clone https://github.com/miguelmarengo/cs50w_project0.git
+
+2.
+git init
+
+3.
+git remote add origin git@gitlab.com:username/cs50w_project0.git

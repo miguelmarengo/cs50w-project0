@@ -1,0 +1,120 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:white;
+    overflow: hidden;
+}
+
+.topnav2 {
+    background-color:#f1f1f1;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav2 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color:#f1f1f1;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration-line: underline;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  background-color: white;
+  float: right;
+}
+
+input[type=text]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 24px;
+   border: 1px solid #dfe1e5;
+   color: black;
+   width: 482px;
+   height: 44px;
+   padding-left: 10px;
+}
+
+input[type=submit] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.center {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  top: 50%;
+}
+
+form
+{
+    display: block;
+    text-align: center;
+}
+
+div {
+  margin-top: 10px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+input[type=textinput]{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    color: red;
+    width: 70%;
+    text-align: left;
+}
+
+
+.styleform label{width:20%; margin-left:5%; float:left; color:black; text-align:left;}
+.styleform input{margin-left:0px; color:black;} /* this gives space for the label on the left */
+.styleform .clear{clear:both;} /* prevent elements from stacking weirdly */
